@@ -76,7 +76,7 @@ public class SortDemoTest{
 	    data.initializeArray("5 64 4");  
 	    
 	    SortDemoData data2 = new SortDemoData();
-	    data2.initializeArray("5 64 6 4");
+	    data2.initializeArray("5 64 4");
 	    assertTrue(data.myArray.length == 3);
 		assertTrue(data.myArray[0].key == data2.myArray[0].key );
 		assertTrue(data.myArray[1].key == data2.myArray[1].key );
