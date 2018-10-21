@@ -11,7 +11,9 @@ import main.java.SortDemoData;
 
 public class AlgoTest {
 
-	//This test covers node, edge and condition coverage
+	/*This test covers node, edge and condition coverage. 
+	 * The test sequence is [9 5 6 7 8 1 2 3 21 0].
+	 */
 	@Test
 	public void IfArrayHasRandomElementsBubbleSort() {
 		SortDemoData data = new SortDemoData();
@@ -34,7 +36,9 @@ public class AlgoTest {
 		assertTrue(data.myArray[9].key == res.myArray[9].key );
 	}
 	
-	//This test covers node, edge and condition coverage
+	/*This test covers node, edge and condition coverage. 
+	 * The test sequence is a null array.
+	 */
 	@Test (expected=java.lang.NullPointerException.class)
 	public void IfArrayIsNullBubbleSort() {
 		SortDemoData data = new SortDemoData();
