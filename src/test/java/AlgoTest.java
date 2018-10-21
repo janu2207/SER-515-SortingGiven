@@ -10,30 +10,8 @@ import main.java.SortAlgos;
 import main.java.SortDemoData;
 
 public class AlgoTest {
-//	@Test
-//	public void bubbleSortTest() {
-//		Item arr[]= new Item[9];
-//		arr[0]= new Item(5);
-//		arr[1] =new Item(6);
-//		arr[2] = new Item(7);
-//		arr[3] =new Item(8);
-//		arr[4]= new Item(1);
-//		arr[5]= new Item(2);
-//		arr[6]= new Item(3);
-//		arr[7]= new Item(0);
-//		arr[8] =new Item(22);
-//		SortAlgos.bubbleSort(arr);
-//		Item arr1[] =null;
-//		int a[]= new int[9];
-//		for( int i=0;i<arr.length;i++) {
-//			a[i]=arr[i].key;
-//		}
-//		int res[]= new int[] {0,1,2,3,5,6,7,8,22};
-//		
-//		Assert.assertArrayEquals(a, res);
-//
-//	}
-	
+
+	//This test covers node, edge and condition coverage
 	@Test
 	public void IfArrayHasRandomElementsBubbleSort() {
 		SortDemoData data = new SortDemoData();
@@ -54,13 +32,9 @@ public class AlgoTest {
 		assertTrue(data.myArray[7].key == res.myArray[7].key );
 		assertTrue(data.myArray[8].key == res.myArray[8].key );
 		assertTrue(data.myArray[9].key == res.myArray[9].key );
-
-
-
 	}
 	
-
-	
+	//This test covers node, edge and condition coverage
 	@Test (expected=java.lang.NullPointerException.class)
 	public void IfArrayIsNullBubbleSort() {
 		SortDemoData data = new SortDemoData();
@@ -89,19 +63,12 @@ public class AlgoTest {
 		assertTrue(data.myArray[7].key == res.myArray[7].key );
 		assertTrue(data.myArray[8].key == res.myArray[8].key );
 		assertTrue(data.myArray[9].key == res.myArray[9].key );
-
-
-
 	}
-	
-
 	
 	@Test (expected=java.lang.NullPointerException.class)
 	public void IfArrayIsNullHeapSort() {
 		SortDemoData data = new SortDemoData();
 		SortAlgos.heapSort(data.myArray);
-		
-
 	}
 	
 	@Test
