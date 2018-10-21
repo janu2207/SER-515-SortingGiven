@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.AlgoTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-10-21T18:37:59" hostname="DESKTOP-IPJCN2K" time="0.044">
+  <properties/>
+  <testcase name="IfArrayHasRandomElementsInsertionSort" classname="test.java.AlgoTest" time="0.021"/>
+  <testcase name="IfArrayIsNullSelectionSort" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="IfArrayHasRandomElementsQuickSort" classname="test.java.AlgoTest" time="0.002"/>
+  <testcase name="IfArrayHasRandomElementsBubbleSort" classname="test.java.AlgoTest" time="0.003"/>
+  <testcase name="IfArrayHasRandomElementsMergeSort" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="IfArrayIsNullHeapSort" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="IfArrayHasRandomElementsSelectionSort" classname="test.java.AlgoTest" time="0.002"/>
+  <testcase name="IfArrayIsNullInsertionSort" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="IfArrayIsNullBubbleSort" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="IfArrayIsNullQuickSort" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="IfArrayHasRandomElementsBubbleSortHeapSort" classname="test.java.AlgoTest" time="0.002"/>
+  <testcase name="IfArrayIsNullMergeSort" classname="test.java.AlgoTest" time="0.0"/>
+  <system-out><![CDATA[[Lmain.java.Item;@4105546f
+[Lmain.java.Item;@d4f2573
+[Lmain.java.Item;@6682be99
+[Lmain.java.Item;@1170bbd1
+[Lmain.java.Item;@413a2876
+[Lmain.java.Item;@35aaf99f
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
