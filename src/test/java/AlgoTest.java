@@ -37,7 +37,7 @@ public class AlgoTest {
 	}
 	
 	/*This test covers node, edge and condition coverage. 
-	 * The test sequence is a null array.
+	 * The test sequence is a null array
 	 */
 	@Test (expected=java.lang.NullPointerException.class)
 	public void IfArrayIsNullBubbleSort() {
