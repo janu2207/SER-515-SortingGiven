@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.AlgoTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-10-21T18:37:59" hostname="DESKTOP-IPJCN2K" time="0.044">
+<testsuite name="test.java.AlgoTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-10-22T03:58:18" hostname="DESKTOP-IPJCN2K" time="0.025">
   <properties/>
-  <testcase name="IfArrayHasRandomElementsInsertionSort" classname="test.java.AlgoTest" time="0.021"/>
-  <testcase name="IfArrayIsNullSelectionSort" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="IfArrayHasRandomElementsInsertionSort" classname="test.java.AlgoTest" time="0.016"/>
+  <testcase name="IfArrayIsNullSelectionSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="IfArrayHasRandomElementsQuickSort" classname="test.java.AlgoTest" time="0.002"/>
-  <testcase name="IfArrayHasRandomElementsBubbleSort" classname="test.java.AlgoTest" time="0.003"/>
-  <testcase name="IfArrayHasRandomElementsMergeSort" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="IfArrayHasRandomElementsBubbleSort" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="IfArrayHasRandomElementsMergeSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="IfArrayIsNullHeapSort" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="IfArrayHasRandomElementsSelectionSort" classname="test.java.AlgoTest" time="0.002"/>
-  <testcase name="IfArrayIsNullInsertionSort" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="IfArrayHasRandomElementsSelectionSort" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="IfArrayIsNullInsertionSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="IfArrayIsNullBubbleSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="IfArrayIsNullQuickSort" classname="test.java.AlgoTest" time="0.0"/>
-  <testcase name="IfArrayHasRandomElementsBubbleSortHeapSort" classname="test.java.AlgoTest" time="0.002"/>
+  <testcase name="IfArrayHasRandomElementsBubbleSortHeapSort" classname="test.java.AlgoTest" time="0.0"/>
   <testcase name="IfArrayIsNullMergeSort" classname="test.java.AlgoTest" time="0.0"/>
   <system-out><![CDATA[[Lmain.java.Item;@4105546f
 [Lmain.java.Item;@d4f2573
